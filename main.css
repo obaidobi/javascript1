@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.contents{
+    font-weight: bold;
+    margin: 0;
+    height: 100px;
+
+}
+.contents li{
+    line-height: 100px;
+    color: rgb(230, 17, 17);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+
+@media(max-width:449px){
+    .contents{
+    background-color: brown;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     height: auto;
+     color: #fff;
+
+}
+.contents li{
+    margin: 8px 0;
+    padding: 0;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+}
